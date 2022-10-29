@@ -9,6 +9,11 @@ jobs:
       - name: read from test md
         id: pyhton-script
         uses: jannekem/run-python-script-action@v1
+
+      - name: fetch file name
+        id: featch-file-name
+        run: |
+          gh pr view 2
         
         
         
