@@ -1,5 +1,5 @@
-An h1 header
-============
+Title: Lets learn Github Actions
+Description: Paragraphs are separated by a blank line.
 
 Paragraphs are separated by a blank line.
 
