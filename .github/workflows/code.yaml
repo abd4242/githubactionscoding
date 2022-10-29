@@ -5,5 +5,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: print hello world
-        run: echo helllo world
+      - uses: actions/setup-python@v4
+      - name: read from test md
+        id: pyhton-script
+        uses: jannekem/run-python-script-action@v1
+        
+        
+        
+        
